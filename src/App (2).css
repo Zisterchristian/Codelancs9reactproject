@@ -1,0 +1,38 @@
+.App {
+    font-family: Arial, sans-serif;
+    transition: background 0.3s, color 0.3s;
+  }
+  .App.light {
+    background: #fff;
+    color: #000;
+  }
+  .App.dark {
+    background: #333;
+    color: #fff;
+  }
+  textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+  .letterDensity {
+    margin-top: 20px;
+  }
+  .bar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  .bar span {
+    margin-right: 10px;
+  }
+  .barFill {
+    height: 20px;
+    background: blue;
+  }
+  button {
+    margin-top: 20px;
+    padding: 5px 15px;
+    cursor: pointer;
+  }
+  
